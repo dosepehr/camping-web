@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* ! fonts */
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../dist/assets/fonts/Roboto/Roboto-Regular.ttf'), format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('../dist/assets/fonts/Roboto/Roboto-Medium.ttf'), format('truetype');
+}
+
+@font-face {
+    font-family: 'archivo';
+    src: url('../dist/assets/fonts/Archivo/Archivo-Black.ttf'), format('truetype');
+}

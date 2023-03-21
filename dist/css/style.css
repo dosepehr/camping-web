@@ -513,12 +513,35 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-zinc-300 {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 216 / var(--tw-text-opacity));
+.font-roboto {
+  font-family: roboto, sans-serif, Arial;
 }
 
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+/* ! fonts */
+
+@font-face {
+  font-family: 'roboto';
+
+  src: url('../dist/assets/fonts/Roboto/Roboto-Regular.ttf'), format('truetype');
+}
+
+@font-face {
+  font-family: 'roboto-medium';
+
+  src: url('../dist/assets/fonts/Roboto/Roboto-Medium.ttf'), format('truetype');
+}
+
+@font-face {
+  font-family: 'archivo';
+
+  src: url('../dist/assets/fonts/Archivo/Archivo-Black.ttf'), format('truetype');
+}
+
+.hover\:font-archivo:hover {
+  font-family: archivo, sans-serif, Arial;
 }
