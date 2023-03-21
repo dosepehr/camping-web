@@ -24,7 +24,7 @@
 /* ! header bg */
 
 .wrapper {
-    background-image: url('../assets/images/header-bg.jpg');
+    background: -webkit-gradient(linear, left top, left bottom, from(#3b373580), to(rgba(59, 55, 53, .5))), url("../assets/images/header-bg.jpg");
     background-size: cover;
     background-position: center center;
 }

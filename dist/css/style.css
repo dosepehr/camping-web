@@ -552,6 +552,16 @@ video {
   margin-right: auto;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
@@ -562,6 +572,26 @@ video {
 
 .hidden {
   display: none;
+}
+
+.min-h-\[80vh\] {
+  min-height: 80vh;
+}
+
+.min-h-\[0vh\] {
+  min-height: 0vh;
+}
+
+.min-h-\[100vh\] {
+  min-height: 100vh;
+}
+
+.max-w-\[30rem\] {
+  max-width: 30rem;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -592,6 +622,11 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-b-large {
+  border-bottom-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -601,8 +636,27 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-primaryColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 111 81 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
+.from-\[\#3b373580\] {
+  --tw-gradient-from: #3b373580;
+  --tw-gradient-to: rgb(59 55 53 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-\[\#3b373580\] {
+  --tw-gradient-to: #3b373580;
 }
 
 .px-16 {
@@ -620,14 +674,40 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.text-center {
+  text-align: center;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-mainGray {
@@ -635,12 +715,17 @@ video {
   color: rgb(210 210 210 / var(--tw-text-opacity));
 }
 
-.duration-300 {
-  transition-duration: 300ms;
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 /* ! fonts */
@@ -666,7 +751,7 @@ video {
 /* ! header bg */
 
 .wrapper {
-  background-image: url('../assets/images/header-bg.jpg');
+  background: -webkit-gradient(linear, left top, left bottom, from(#3b373580), to(rgba(59, 55, 53, .5))), url("../assets/images/header-bg.jpg");
   background-size: cover;
   background-position: center center;
 }

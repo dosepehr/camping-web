@@ -14,6 +14,9 @@ module.exports = {
                 mainGray: '#D2D2D2',
                 mainDark: '#3B3735',
             },
+            borderRadius: {
+                'large':'10rem'
+            }
         },
     },
     plugins: [],
