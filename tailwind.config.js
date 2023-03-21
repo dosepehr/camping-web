@@ -3,12 +3,18 @@ module.exports = {
     content: ['./dist/**/*.{html,js}'],
     theme: {
         fontFamily: {
-            'roboto': ['roboto','sans-serif','Arial'],
-            'roboto-medium': ['roboto-medium','sans-serif','Arial'],
-            'archivo': ['archivo','sans-serif','Arial'],
+            roboto: ['roboto', 'sans-serif', 'Arial'],
+            'roboto-medium': ['roboto-medium', 'sans-serif', 'Arial'],
+            archivo: ['archivo', 'sans-serif', 'Arial'],
         },
-        extend: {},
+        extend: {
+            colors: {
+                primaryColor: '#E76F51',
+                secondaryColor: '#F8E1DB',
+                mainGray: '#D2D2D2',
+                mainDark: '#3B3735',
+            },
+        },
     },
     plugins: [],
 };
-
