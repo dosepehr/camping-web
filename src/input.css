@@ -20,3 +20,11 @@
 
     src: url('../assets/fonts/Archivo/Archivo-Black.ttf'), format('truetype');
 }
+
+/* ! header bg */
+
+.wrapper {
+    background-image: url('../assets/images/header-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
