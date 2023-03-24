@@ -16,6 +16,9 @@ module.exports = {
             },
             borderRadius: {
                 'large':'10rem'
+            },
+            boxShadow: {
+                custom:'0 0 0.75rem'
             }
         },
     },
