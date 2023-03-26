@@ -28,3 +28,18 @@
     background-size: cover;
     background-position: center center;
 }
+
+
+/* ! scrool bar */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #E76F51;
+    border-radius: 6px;
+}
