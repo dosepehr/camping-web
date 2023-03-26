@@ -96,3 +96,8 @@ body::-webkit-scrollbar-thumb {
 .show {
     right: 0;
 }
+
+.overlay-active{
+    opacity: 1;
+    display: block;
+}
