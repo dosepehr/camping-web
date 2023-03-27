@@ -96,7 +96,23 @@ body::-webkit-scrollbar-thumb {
     left: 0;
 }
 
-.overlay-active{
+.overlay-active {
     opacity: 1;
     display: block;
+}
+
+/* ! animations */
+[data-animate="animate-1"] {
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.5s;
+    position: relative;
+    filter: blur(5px);
+    transform: translate3d(100%, 0, 0)
+}
+
+.do-animate[data-animate="animate-1"] {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    filter: blur(0px);
 }
