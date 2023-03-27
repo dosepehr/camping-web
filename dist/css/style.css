@@ -566,8 +566,8 @@ video {
   left: 0px;
 }
 
-.-right-full {
-  right: -100%;
+.-left-full {
+  left: -100%;
 }
 
 .-top-3 {
@@ -646,6 +646,11 @@ video {
   margin-bottom: 5rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -708,6 +713,10 @@ video {
   height: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -716,8 +725,8 @@ video {
   width: 8rem;
 }
 
-.w-96 {
-  width: 24rem;
+.w-60 {
+  width: 15rem;
 }
 
 .w-\[200px\] {
@@ -778,6 +787,12 @@ video {
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .space-y-9 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -831,6 +846,15 @@ video {
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-mainGray {
+  --tw-border-opacity: 1;
+  border-color: rgb(210 210 210 / var(--tw-border-opacity));
+}
+
 .border-primaryColor {
   --tw-border-opacity: 1;
   border-color: rgb(231 111 81 / var(--tw-border-opacity));
@@ -854,14 +878,14 @@ video {
   background-color: rgb(250 244 242 / var(--tw-bg-opacity));
 }
 
+.bg-mainDark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 55 53 / var(--tw-bg-opacity));
+}
+
 .bg-primaryColor {
   --tw-bg-opacity: 1;
   background-color: rgb(231 111 81 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-secondaryColor {
@@ -890,20 +914,12 @@ video {
   padding: 0.75rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-10 {
@@ -1174,7 +1190,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .show {
-  right: 0;
+  left: 0;
 }
 
 .overlay-active{
