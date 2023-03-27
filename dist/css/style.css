@@ -688,10 +688,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -894,8 +890,20 @@ video {
   padding: 0.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-10 {
@@ -1122,7 +1130,7 @@ body::-webkit-scrollbar-thumb {
 .ham {
   cursor: pointer;
   width: 24px;
-  height: 24px;
+  height: 16px;
   transition: all 0.25s;
   position: relative;
 }
@@ -1133,7 +1141,6 @@ body::-webkit-scrollbar-thumb {
   height: 2px;
   top: 0;
   left: 0;
-  background-color: #000;
   transform: rotate(0);
   transition: all 0.25s;
 }

@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 .ham {
     cursor: pointer;
     width: 24px;
-    height: 24px;
+    height: 16px;
     transition: all 0.25s;
     position: relative;
 }
@@ -59,7 +59,6 @@ body::-webkit-scrollbar-thumb {
     height: 2px;
     top: 0;
     left: 0;
-    background-color: #000;
     transform: rotate(0);
     transition: all 0.25s;
 }
